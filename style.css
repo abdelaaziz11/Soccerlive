@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/world.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-color: rgba(11, 113, 111, 0.803); */
+}
+header{
+    background: url("images/5.png") 10px no-repeat;
+    background-color: rgba(0, 0, 0, 0.461);
+    height: 70px;
+    width: 100%;
+    color: #ffffff;
+}
+header h2{
+    line-height: 70px;
+    padding-left: 70px;
+    color: beige;
+}
+.mockups{
+    margin-top: -40px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.mockups h4{
+    font-size: 600;
+    padding-bottom: 21.5px;
+    padding-left: 25px;
+    padding-right: 35px;
+}
+ul h3 {
+    line-height: 70px;
+    padding-left: 10px;
+}
+.popover, .pipover, .noti{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    display: none;
+    background-color:  rgba(0, 0, 0, 0.461);
+    /* border: 1px solid #DDDDDD;
+    border-radius: 4px; */
+    border: 1px solid none;
+    border-radius: 1px;
+}
+.match:hover > .popover{
+    display: block;
+}
+.live:hover > .pipover{
+    display: block;
+}
+.notification:hover > .noti{
+    display: block;
+}
+.popover h5, .pipover h5{
+    padding-left: 10px;
+}
+.live h5{
+    padding-bottom: 22px;
+    padding-left: 10px;
+}
+.notification h5{
+    padding-left: 15px;
+}
+.home{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+}
+li:hover{
+    color: antiquewhite;
+}
+.mockups h4:hover{
+    color: orange;
+}
+.home h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
