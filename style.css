@@ -10,7 +10,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    /* background-color: rgba(11, 113, 111, 0.803); */
+
 }
 header{
     background: url("images/5.png") 10px no-repeat;
@@ -40,15 +40,14 @@ ul h3 {
     line-height: 70px;
     padding-left: 10px;
 }
-.popover, .pipover, .noti{
+.popover, .pipover, .login{
     list-style: none;
     padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 10px;
     display: none;
     background-color:  rgba(0, 0, 0, 0.461);
-    /* border: 1px solid #DDDDDD;
-    border-radius: 4px; */
+    
     border: 1px solid none;
     border-radius: 1px;
 }
@@ -58,17 +57,17 @@ ul h3 {
 .live:hover > .pipover{
     display: block;
 }
-.notification:hover > .noti{
+.Login:hover > .login{
     display: block;
 }
-.popover h5, .pipover h5{
+/* .popover h5, .pipover h5{
     padding-left: 10px;
 }
 .live h5{
     padding-bottom: 22px;
     padding-left: 10px;
-}
-.notification h5{
+} */
+.Login h5{
     padding-left: 15px;
 }
 .home{
@@ -80,8 +79,8 @@ ul h3 {
     text-align: center;
     color: #ffffff;
 }
-li:hover{
-    color: antiquewhite;
+li:hover > a{
+    color: #cd9316;
 }
 .mockups h4:hover{
     color: orange;
@@ -89,4 +88,8 @@ li:hover{
 .home h1{
     font-size: 3rem;
     margin-bottom: 1rem;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
 }
