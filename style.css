@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(images/world.jpeg);
+    background-image: url(images/soccer-2.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -13,26 +13,23 @@ body{
 
 }
 header{
-    background: url("images/5.png") 10px no-repeat;
+    background: url("images/logo.png") 0px no-repeat;
     background-color: rgba(0, 0, 0, 0.461);
     height: 70px;
+    line-height: 70px;
     width: 100%;
     color: #ffffff;
 }
-header h2{
-    line-height: 70px;
-    padding-left: 70px;
-    color: beige;
-}
+
 .mockups{
-    margin-top: -40px;
+    margin-top: 0px;
     width: 100%;
     display: flex;
     justify-content: right;
 }
 .mockups h4{
     font-size: 600;
-    padding-bottom: 21.5px;
+    padding-bottom: 0px;
     padding-left: 25px;
     padding-right: 35px;
 }
@@ -51,22 +48,12 @@ ul h3 {
     border: 1px solid none;
     border-radius: 1px;
 }
-.match:hover > .popover{
-    display: block;
-}
-.live:hover > .pipover{
-    display: block;
-}
+.match:hover > .popover,
+.live:hover > .pipover,
 .Login:hover > .login{
     display: block;
 }
-/* .popover h5, .pipover h5{
-    padding-left: 10px;
-}
-.live h5{
-    padding-bottom: 22px;
-    padding-left: 10px;
-} */
+
 .Login h5{
     padding-left: 15px;
 }
@@ -79,11 +66,12 @@ ul h3 {
     text-align: center;
     color: #ffffff;
 }
-li:hover > a{
-    color: #cd9316;
-}
-.mockups h4:hover{
-    color: orange;
+a:hover,
+.live:hover,
+.match:hover,
+.login:hover,
+.Login:hover{
+    color: #f98900;
 }
 .home h1{
     font-size: 3rem;
