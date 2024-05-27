@@ -54,3 +54,15 @@ body{
     flex-direction: column;
     align-items: stretch;
 }
+.list1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.center{
+    color: #ffffff;
+    background-color: green;
+    border: green 2px solid;
+    border-radius: 50%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
