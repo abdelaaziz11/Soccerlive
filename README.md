@@ -1,5 +1,2 @@
-# Front-end Project about soccer "ScoreKick"
-Authors:
-Hamid Bouayadi <Bouayadihamid@gmail.com>
+# Front-End Project about soccer "ScoreKick"
 Abdelaaziz Khouda <abdelkhouda055@gmail.com>
-Mohamed 
