@@ -3,9 +3,15 @@
     margin: 0;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
+    color: #ffffff;
 }
 body{
     background-color: beige;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .header h1{
     display: flex;
