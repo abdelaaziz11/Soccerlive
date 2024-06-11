@@ -1,2 +1,2 @@
-# Front-End Project about Soccer live and matches, named ScoreKick website
+# Front-End Project about Soccer live and matches, this website named ScoreKick
 Abdelaaziz Khouda <abdelkhouda055@gmail.com>
